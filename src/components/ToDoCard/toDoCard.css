@@ -1,0 +1,47 @@
+.toDoList .toDoCard {
+    width: 500px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px auto;
+    box-shadow: 0 2px 15px -1px rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 30%), 0 1px 3px 0 rgb(0 0 0 / 30%);
+}
+
+.toDoCard__date-box {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.toDoCard__buttons-box {
+    margin: 0 auto;
+}
+
+.toDoCard__priority {
+    font-size: 16px;
+}
+
+.priority__Low {
+    background: rgba(131, 199, 187, 0.15) !important;
+    color: rgb(131, 199, 187) !important;
+}
+
+.priority__Normal {
+    background: rgba(160, 160, 160, 0.12) !important;
+    color: rgb(160, 160, 160) !important;
+}
+
+.priority__High {
+    background: rgba(255, 162, 54, 0.15) !important;
+    color: rgb(255, 162, 54) !important;
+}
+
+.priority__Urgent {
+    background: rgba(255, 57, 122, 0.15) !important;
+    color: rgb(255, 57, 122) !important;
+}
+
+.priority__Immediate {
+    background: rgba(187, 119, 255, 0.15) !important;
+    color: rgb(187, 119, 255) !important;
+}

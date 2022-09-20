@@ -1,0 +1,18 @@
+export default {
+  toDoCardClass: (cardPriority) => `priority__${cardPriority} toDoCard`,
+  columnDirection: 'column',
+  rowDirection: 'row',
+  firstSpacing: 1,
+  secondSpacing: 2,
+  h5Variant: 'h5',
+  body1Variant: 'body1',
+  buttonVariant: 'button',
+  inheritVariant: 'inherit',
+  textSecondaryColor: 'text.secondary',
+  primaryColor: 'primary',
+  textPriorityClass: 'toDoCard__priority',
+  dateBoxClass: 'toDoCard__date-box',
+  creationDateText: (creationDate) => `Create: ${creationDate}`,
+  updateDateText: (updateDate) => `Update: ${updateDate}`,
+  buttonsBoxClass: 'toDoCard__buttons-box',
+};

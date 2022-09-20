@@ -1,0 +1,18 @@
+export default {
+  emptyString: '',
+  filterFormClass: 'filterForm',
+  firstSpacing: 1,
+  thirdSpacing: 3,
+  rowDirection: 'row',
+  selectBoxClass: 'filterForm__select-box',
+  selectClass: 'filterForm__select',
+  statusName: 'status',
+  statusLabel: 'Status',
+  priorityName: 'priority',
+  priorityLabel: 'Priority',
+  buttonsBoxClass: 'filterForm__buttons-box',
+  containedBtnVariant: 'contained',
+  outlinedBtnVariant: 'outlined',
+  submitType: 'submit',
+  resetType: 'reset',
+};

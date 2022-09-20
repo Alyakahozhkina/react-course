@@ -1,0 +1,18 @@
+.filterForm {
+    padding: 20px;
+}
+
+.filterForm__select-box,
+.filterForm__buttons-box {
+    justify-content: center;
+    margin: 10px;
+}
+
+.filterForm__buttons-box {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.filterForm__select {
+    width: 200px;
+}

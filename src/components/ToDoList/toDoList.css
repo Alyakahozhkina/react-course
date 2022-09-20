@@ -1,0 +1,10 @@
+body .toDoList {
+    max-width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toDoList .toDoList__noToDo {
+    margin: 50px auto;
+}

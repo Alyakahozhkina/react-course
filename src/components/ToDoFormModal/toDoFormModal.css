@@ -1,0 +1,34 @@
+.toDoFormModal__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+    padding: 32px;
+}
+
+.toDoFormModal__form {
+    width: 400px;
+}
+
+.toDoFormModal__form .toDoFormModal__input,
+.toDoFormModal__form .toDoFormModal__select {
+    width: 100%;
+    min-height: 86px;
+    margin: 0;
+}
+
+.toDoFormModal__form .toDoFormModal__select {
+    text-align: left;
+}
+
+.toDoFormModal__add-btn {
+    margin-bottom: 30px !important;
+}
+
+.toDoFormModal__buttons-box {
+    justify-content: center;
+}
