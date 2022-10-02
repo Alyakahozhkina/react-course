@@ -1,0 +1,52 @@
+.goodsAddForm__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+    padding: 32px;
+}
+
+.goodsAddForm__form {
+    width: 400px;
+}
+
+.goodsAddForm__form .forms__input,
+.goodsAddForm__form .forms__select {
+    width: 100%;
+    min-height: 86px;
+    margin: 0;
+}
+
+.App .forms__input,
+.App .forms__select {
+    width: 100%;
+}
+
+.goodsAddForm__form .forms__select {
+    text-align: left;
+}
+
+.goodsAddForm__add-btn {
+    margin-bottom: 30px !important;
+}
+
+.buttons-box {
+    justify-content: center;
+}
+
+.goodsEditForm .goodsList__table-cell {
+    vertical-align: text-top;
+}
+
+.goodsEditForm .goodsEditForm__btn-box,
+.goodsEditForm .goodsEditForm__number {
+    vertical-align: inherit;
+}
+
+.goodsEditForm .goodsEditForm__number {
+    font-size: 16px;
+}

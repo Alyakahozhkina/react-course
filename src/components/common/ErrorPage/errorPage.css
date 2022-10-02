@@ -1,0 +1,10 @@
+.error-page {
+    padding-top: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-page .error-page__text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

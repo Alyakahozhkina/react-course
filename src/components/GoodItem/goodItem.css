@@ -1,0 +1,42 @@
+.goodItem {
+    width: 500px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    margin: 50px auto !important;
+    box-shadow: 0 2px 15px -1px rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 30%), 0 1px 3px 0 rgb(0 0 0 / 30%) !important;
+}
+
+.goodItem__buttons-box {
+    margin: 0 auto 10px;
+}
+
+.goodItem__category {
+    font-size: 16px;
+}
+
+.category__Fruits,
+.category__Vegetables {
+    background: rgba(131, 199, 187, 0.15) !important;
+    color: rgb(131, 199, 187) !important;
+}
+
+.category__Fish {
+    background: rgba(14, 111, 255, 0.12) !important;
+    color: rgb(14, 111, 255) !important;
+}
+
+.category__Bakery {
+    background: rgba(255, 162, 54, 0.15) !important;
+    color: rgb(255, 162, 54) !important;
+}
+
+.category__Meat {
+    background: rgba(255, 57, 122, 0.15) !important;
+    color: rgb(255, 57, 122) !important;
+}
+
+.category__Dairy {
+    background: rgba(187, 119, 255, 0.15) !important;
+    color: rgb(187, 119, 255) !important;
+}

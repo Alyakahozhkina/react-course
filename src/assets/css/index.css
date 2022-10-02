@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(294deg, rgba(238,174,202,0.5) 0%, rgba(148,187,233,0.5) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App .toast-container {
+  text-align: left;
 }
